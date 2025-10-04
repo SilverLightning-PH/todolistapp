@@ -18,7 +18,7 @@
   align-items: center;
   flex-direction: column;
   background: #000430;
-  width: 350px;
+  width: 400px;
   height: auto;
   border-radius: 15px;
   padding: 40px;
@@ -164,4 +164,11 @@ button {
   cursor: pointer;
 }
 
+
+ @media (max-width: 400px) {
+  .apps-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+ }
  
