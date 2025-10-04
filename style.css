@@ -45,7 +45,8 @@ h1 {
 color: #24feee;
 }
 
-.details .sub-details{
+.sub-details{
+  padding-left: 15px;
   font-style: italic;
   color: rgb(245, 4, 133);
 }
