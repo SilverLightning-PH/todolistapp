@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+ body {
+  background-color: rgb(212, 239, 250);  
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px; 
+ }
+
+.apps-container {
+  display: flex;   
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  background: #000430;
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+  padding: 40px;
+  margin: auto;
+}
+
+.stats-container {
+  display: flex;
+  width: 100%;
+  background: #171c48;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #24feee;
+  gap: 20px;
+ 
+}
+
+.details {
+  width: 100%;
+  color: aliceblue;
+}
+
+h1 { 
+color: #24feee;
+}
+
+.sub-details{
+  font-style: italic;
+  color: rgb(245, 4, 133);
+}
+
+
+#numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #24feee;
+  background-color: rgb(120, 61, 230);
+}
+
+#progressBar {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(76, 110, 155);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.progress {
+  width: 0%;
+  height: 10px;
+  border-radius: 5px;
+  background: #24feee;
+  transition: all 0.3s ease;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 15px;
+  background-color: #171c48;
+  border: 2px solid #24feee;
+  border-radius: 25px;
+  outline: none;
+  font-size: 15px;
+  color: aliceblue;
+  box-shadow: -1px -8px 15px rgba(255, 255, 255, 0.166),5px 5px 15px rgb(0, 0, 0, 0.2);
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(120, 61, 230);
+  font-size: 30px;
+  color:#24feee;
+  font-weight: 700;
+  border: none;
+  box-shadow: -1px -8px 15px rgba(255, 255, 255, 0.166),5px 5px 15px rgb(0, 0, 0, 0.2);
+}
+
+#task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  width: 100%;
+  list-style: none;
+  color: aliceblue; 
+}
+
+.taskItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171c48;
+  border-radius: 10px;
+  border: 2px solid rgb(120, 61, 230);
+  padding: 10px;
+  font-size: 14px;
+  color: aliceblue;
+  
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.task input {
+  width: 15px;
+  height: 15px; 
+}
+
+
+.completed p {
+  text-decoration: line-through;
+  color: #24feee;
+}
+
+
+.taskItem img {
+  width: 24x;
+  height: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+ 
